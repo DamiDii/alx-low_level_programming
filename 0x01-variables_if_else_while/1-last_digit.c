@@ -22,7 +22,6 @@ int main(void)
 	/* finding your last digit (modulus)*/
 	digit = n % 10;
 	/* conditional statemnts to display results*/
-	
 	if (digit == 0)
 		printf("Last digit of %d is %d  and is 0\n", n, digit);
 	else if (digit > 5)
