@@ -17,7 +17,7 @@ int main(void)
 			putchar(',');
 		}
 		if (c == d)
-				putchar(c);
+			putchar(c);
 		putchar(' ');
 	}
 	return (0);
