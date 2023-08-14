@@ -6,19 +6,16 @@
   */
 int main(void)
 {
-	int c = '0';
-	int d = '9';
+	int c;
 
-	for (c = '0'; c <= d; c++)
+	for (c = 48; c < 58; c++)
 	{
-		if (c < d)
-		{
-			putchar(c);
-			putchar(',');
+		putchar(c);
+		if (c != 57)
+		{	putchar(',');
 			putchar(' ');
 		}
-		else if (c == d)
-			putchar(c);
 	}
+	putchar('\n');
 	return (0);
 }
