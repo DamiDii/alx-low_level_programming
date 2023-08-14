@@ -15,11 +15,10 @@ int main(void)
 		{
 			putchar(c);
 			putchar(',');
-			putchar(' ');
 		}
-		else if (c == d)
-			putchar(c);
-		return (0);
+		if (c == d)
+				putchar(c);
+		putchar(' ');
 	}
 	return (0);
 }
