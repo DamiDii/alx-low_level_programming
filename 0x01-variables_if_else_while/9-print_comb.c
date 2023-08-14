@@ -18,7 +18,10 @@ int main(void)
 			putchar(' ');
 		}
 		else if (c == d)
+		{
 			putchar(c);
+			putchar(' ');
+		}
 	}
 	return (0);
 }
