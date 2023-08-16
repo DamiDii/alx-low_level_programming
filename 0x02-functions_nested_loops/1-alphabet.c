@@ -8,14 +8,11 @@ void print_alphabet(void);
 
 int main(void)
 {
-	print_alphabet
-	{
-		int i;
+	int i;
 
-		for (i = 97; i <= 122; i++)
-		{
-			_putchar('i' + 0);
-		}
-		return (0);
+	for (i = 97; i <= 122; i++)
+	{
+		_putchar('i' + 0);
 	}
+	return (0);
 }
