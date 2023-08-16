@@ -4,13 +4,18 @@
   * description using _putchar to print out the alphabet"
   * Return: always 0 (success)
   */
+void print_alphabet(void);
+
 int main(void)
 {
-	int i;
-
-	for (i = 97; i <= 122; i++)
+	print_alphabet
 	{
-		_putchar('i' + 0);
+		int i;
+
+		for (i = 97; i <= 122; i++)
+		{
+			_putchar('i' + 0);
+		}
+		return (0);
 	}
-	return (0);
 }
