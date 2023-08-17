@@ -1,15 +1,12 @@
 #include "main.h"
 /**
-  * main - Entry Point
-  * description using _putchar to print out the alphabet"
-  * @c: is thr char to  be char
-  * Return: always 0 (success)
+  * _islower - is used to check for lowercase
+  * @c: is the character we are checking
+  * Return: 1 if c is lowercase, otherwise 0 if not
   */
-int _islower(int c);
-
-int main(void)
+int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 97 && c <= 122)
 		return (1);
 	else
 		return (0);
