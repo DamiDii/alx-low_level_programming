@@ -1,8 +1,6 @@
 #include "main.h"
 /**
-  *main - entry Point
   * description: print alpahebt i10x using nested loop and in new line
-  * Return: always 0 (success)
   */
 
 void print_alphabet_x10(void);
