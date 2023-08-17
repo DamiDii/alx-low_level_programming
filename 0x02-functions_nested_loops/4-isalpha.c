@@ -1,11 +1,10 @@
 #include "main.h"
 /**
-  * _isalpha - Entry Point
-  * description checks for alphabet character
-  * @c: is thr char to  be char
+  * _isalpha - checks if c is a alphabetic character (Uppercase or lowercase)
+  * @c: is the char to be check
   * Return: 1 if c is a letter, 0 otherwise
   */
-int _isalpha(int c);
+int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'a' && c <= 'z'));
+	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 }
