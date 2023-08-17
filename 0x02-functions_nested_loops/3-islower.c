@@ -2,17 +2,15 @@
 /**
   * main - Entry Point
   * description using _putchar to print out the alphabet"
+  * @c: is thr char to  be char
   * Return: always 0 (success)
   */
-void print_alphabet(void);
+int _islower(int c);
 
 int main(void)
 {
-	char i;
-
-	for (i = 97; i <= 122; i++)
-	{
-		_putchar('i' + 0);
-	}
-	_putchar('\n');
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
