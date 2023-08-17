@@ -3,7 +3,7 @@
   * void print_alphabet(void)- returns no int
   * description using _putchar to print out the alphabet"
   */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char i;
 
