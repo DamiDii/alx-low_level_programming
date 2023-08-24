@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-  * _print_rev - is used to print out string in reverse
-  * @*str: point used to link string str
-  * @puts2: is the array of characters (string) to be printed
+  * puts2 - is used to print out every other character in a string
+  * @str: pointer used to link string str
   * void: no return value
  */
 
